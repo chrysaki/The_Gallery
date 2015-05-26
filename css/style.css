@@ -1,0 +1,167 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: cornsilk;
+}
+
+.brand-logo img {
+  width: 43px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+
+  background-color: rgba(0,0,0,0.2);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (min-width : 993px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .container {
+    width: 100%;
+  }
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+  padding-top: 0;
+}
+
+/**************/
+/* Overriding */
+/**************/
+a.smoothScroll.waves-effect.waves-light {
+  font-weight: 200;
+}
+
+h1.header, h5.header {
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.parallax-container .section .container {
+  padding-top: 125px;
+}
+/* CARD */
+.card.grey.darken-4 .card-content {
+  padding: 0 20px !important;
+}
+.card-title {
+  font-weight: 200 !important;
+  font-size: 20px !important;
+}
+/* Film_Roll */
+.film_roll_wrapper {
+  height: 187px !important;
+  /*height: 350px !important;*/
+}
+.film_roll_child {
+  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.film_roll_child.active {
+  -webkit-filter: grayscale(0);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.film_roll_child img {
+  border: 5px solid white;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 176px;
+  /*height: 350px;*/
+}
+/* EVENT */
+.event {
+  position: relative;
+  padding: 7px 5px 10px 95px;
+  min-height: 90px;
+}
+.event-date {
+  position: absolute;
+  float: left;
+  left: 8px;
+  top: 6px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  width: 70px;
+  font-size: 22px;
+  line-height: 1;
+}
+.event-date span {
+  font-size: 16px;
+}
+.event-description {
+
+}
+.event button {
+  height: 24px;
+  padding: 0 20px;
+  margin-top: 7px
+}
+.event button, .event button i {
+  font-size: 10px;
+  line-height: 1.5;
+}
+/* TABS */
+.tabs .tab a {
+  color: #fff !important;
+}
+.tabs .tab a.active {
+  font-weight: 300;
+}
+.artists img {
+  width: 100%;
+  margin: 0.5rem 0 1rem 0;
+}
+.artists .card.hide-on-large-only .card-title {
+  font-size: 24px !important;
+  font-weight: normal !important;
+  color: #fff !important;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+}
